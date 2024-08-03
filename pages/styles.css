@@ -9,21 +9,19 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: #542583;
     padding: 16px 128px;
 }
 
 .header .top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     color: #E5E7EB;
 }
 
-.header .top .logo {
-    font-size: 24px;
-    font-weight: 600;
-    color: #F9FAF8;
+.header .top .logo img {
+    height: auto;
+    width: 80px;
 }
 
 .header .top .links ul{
@@ -48,7 +46,7 @@ body {
 .header .content .intro h1 {
     font-size: 48px;
     font-weight: 1000;
-    color: #F9FAF8;
+    color: #FDB827;
 }
 
 .header .content .intro p {
@@ -57,8 +55,9 @@ body {
 }
 
 .header .content .intro button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: #FDB827;
+    color: #542583;
+    font-weight: 600;
     border: none;
     border-radius: 12px;
     padding: 6px 20px;
@@ -69,4 +68,32 @@ body {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 150px;
+}
+
+.info h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.info .card-container {
+    display: flex;
+}
+
+.info .card-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .card-container .card img {
+    width: 150px;
+    height: 150px;
 }
